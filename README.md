@@ -13,4 +13,4 @@
 - Bootstrap
 
 <br><br>
-<i>made by : [Yassine Deriouch](https://github.com/Yassine-Derouich) & [Youssef Bouichenade](https://github.com/Youssef-Yb07)</i>
+<i>made by : [Yassine Deriouch](https://github.com/YassineDerouich) & [Youssef Bouichenade](https://github.com/Youssef-Yb07)</i>
