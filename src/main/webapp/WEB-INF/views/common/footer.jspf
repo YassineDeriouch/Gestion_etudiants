@@ -1,0 +1,7 @@
+</section>
+<script>
+    <%@include file="../../resources/script.js"%>
+    <%@include file="../../resources/bootstrap/js/bootstrap.min.js"%>
+</script>
+</body>
+</html>

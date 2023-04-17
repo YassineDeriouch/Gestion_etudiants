@@ -1,0 +1,55 @@
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container-fluid">
+        <div class="navbar-brand user-select-none" aria-disabled="true" >
+            <i class='bx bxs-flag'></i>
+            <span class="text user-select-none">Gestion des etudiants</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a href="${pageContext.request.contextPath}/index.jsp" class="nav-link">
+                        <i class='bx bxs-dashboard'></i>
+                        <span class="text">Welcome</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class='bx bx-user'></i>
+                        <span class="text">Etudiant</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <li><a href="${pageContext.request.contextPath}/user/ajouterEtudiant.action" class="dropdown-item"><i class='bx bx-user'></i>Creer Etudiant</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/ListerEtudiants.action" class="dropdown-item"><i class='bx bxs-group'></i>Liste des etudiants</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class='bx bxs-shopping-bag'></i>
+                        <span class="text">Specialite</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li><a href="${pageContext.request.contextPath}/user/formAjouterSpecialite.action" class="dropdown-item"><i class='bx bxs-shopping-bag'></i>Creer Specialite</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/listAllSpecialites.action" class="dropdown-item"><i class='bx bxs-group'></i>List Specialities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class='bx bxs-check-circle'></i>
+                        <span class="text">Role</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <li><a href="${pageContext.request.contextPath}/user/formAjouterUserToRole.action" class="dropdown-item"><i class='bx bxs-shopping-bag'></i>Add user to Role</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/formAjouterRole.action" class="dropdown-item"><i class='bx bxs-check-circle'></i>ADD Role</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/GetRoles.action" class="dropdown-item"><i class='bx bxs-group'></i>List Roles</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/GetUsers.action" class="dropdown-item"><i class='bx bxs-group'></i>List Users</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
